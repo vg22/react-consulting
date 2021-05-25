@@ -1,7 +1,6 @@
 # Welcome to React consulting Theme 
 
-Live site link ()
-
+Live site link (will be updated later)
 
 ## Used NPM Packages ( For Developers )
 #### Create React App
