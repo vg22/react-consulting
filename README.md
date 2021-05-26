@@ -10,3 +10,5 @@ Live site link (will be updated later)
 #### Font Awesome
 #### Counter Up
 #### Visibility sensor
+#### React Modal Video
+#### React Swiper

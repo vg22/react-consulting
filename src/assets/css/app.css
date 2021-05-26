@@ -1141,7 +1141,7 @@ footer .widget .quomodo-btn:after{
 .copyright p{
     font-size: 18px;
     color: #fff;
-    display: inline-block;
+    /* display: inline-block; */
     float: right;
     line-height: 26px;
     font-weight: 700;
@@ -2027,9 +2027,7 @@ footer.f2-color .quomodo-btn:hover{
     animation-name: zoomIn;
     animation-delay: .40s;
 }
-.banner-st3-thumb img{
-    
-}
+
 .banner-st3-shape-1{
     position: absolute;
     left: 0;
