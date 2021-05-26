@@ -9,14 +9,16 @@ const routes = [
         path: '/',
         exact: true,
         component: Home,
-        authentication: false
+        authentication: false,
+        parentClass: "theme-1"
     },
     {
         name: 'NotFound',
         path: '/*',
         exact: false,
         component: NotFound,
-        authentication: false
+        authentication: false,
+        parentClass: "theme-1"
     }
 ];
 
