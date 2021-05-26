@@ -10,7 +10,7 @@ const routes = [
         exact: true,
         component: Home,
         authentication: false,
-        parentClass: "theme-1"
+        theme: "theme-1"
     },
     {
         name: 'NotFound',
@@ -18,7 +18,7 @@ const routes = [
         exact: false,
         component: NotFound,
         authentication: false,
-        parentClass: "theme-1"
+        theme: "theme-1"
     }
 ];
 
