@@ -5,7 +5,7 @@ import HeaderOne from '../../components/Headers/HeaderOne/HeaderOne';
 
 const ThemeRoute = ({ children, theme, ...rest }) => {
     return (
-        <div className={theme}>
+        <>
             {
                 theme === 'theme-1' &&
                 <>
@@ -25,7 +25,7 @@ const ThemeRoute = ({ children, theme, ...rest }) => {
                     <FooterOne />
                 </>
             }
-        </div>
+        </>
 
     );
 };
