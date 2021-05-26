@@ -11,4 +11,4 @@ Live site link (will be updated later)
 #### Counter Up
 #### Visibility sensor
 #### React Modal Video
-#### React Swiper
+#### Slick Slider

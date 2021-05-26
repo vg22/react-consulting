@@ -9,6 +9,7 @@ const ThemeRoute = ({ children, theme, ...rest }) => {
             {
                 theme === 'theme-1' &&
                 <>
+                    {/* Header Section */}
                     <HeaderOne />
                 </>
             }

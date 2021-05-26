@@ -2116,6 +2116,10 @@ footer.f2-color .quomodo-btn:hover{
     top: 0;
 }
 
+.slick-initialized .slick-slide{
+    margin : 0px;
+}
+
 /*---- Feature Section ----*/
 .feature-section{
     position: relative;
@@ -4010,4 +4014,3 @@ blockquote p{
 	border-radius: 5px;
 	margin-top: -6px;
 }
- 

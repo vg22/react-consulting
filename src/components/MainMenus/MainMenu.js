@@ -34,7 +34,7 @@ const menus = [
     {
         id: 2,
         linkText: 'About',
-        link: '/world'
+        link: '/about'
     },
     {
         id: 3,

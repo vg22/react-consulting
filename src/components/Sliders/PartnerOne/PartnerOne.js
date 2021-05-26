@@ -4,13 +4,7 @@ import partnerTwoImage from '../../../assets/images/home/client-logo/2.png';
 import partnerThreeImage from '../../../assets/images/home/client-logo/3.png';
 import partnerFourImage from '../../../assets/images/home/client-logo/4.png';
 import partnerFiveImage from '../../../assets/images/home/client-logo/5.png';
-import "swiper/swiper.min.css";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, {
-    Autoplay
-} from 'swiper/core';
-
-SwiperCore.use([Autoplay]);
+import Slider from "react-slick";
 
 const partners = [
     {
@@ -65,43 +59,45 @@ const partners = [
     }
 ];
 
-const slides = [];
+const settings = {
+    autoplay: true,
+    autoplaySpeed: 3000,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    dots: false,
+    arrows: false,
+    infinite: false,
+    centerMode: false,
+    responsive: [
+        {
+            breakpoint: 640,
+            settings: {
+                slidesToShow: 1
+            }
+        },
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 2
+            }
+        },
 
-for (let i = 0; i < partners.length; i++) {
-    slides.push(
-        <SwiperSlide style={{ marginRight: '0px' }} className="client-logo" key={partners[i]?.id}>
-            <div className="item">
-                <Link to={partners[i]?.link}>
-                    <img src={partners[i]?.image} alt="" />
-                </Link>
-            </div>
-        </SwiperSlide>
-    );
-}
+    ]
+};
 
 const PartnerOne = () => {
     return (
-        <Swiper
-            loop={true}
-            autoplay={true}
-            className="slider-wrapper"
-            breakpoints={{
-                640: {
-                    width: 640,
-                    slidesPerView: 1,
-                },
-                768: {
-                    width: 768,
-                    slidesPerView: 2,
-                },
-                1024: {
-                    width: 1024,
-                    slidesPerView: 3,
-                },
-            }}
-        >
-            {slides}
-        </Swiper>
+        <Slider className="client-logo owl-carousel" {...settings}>
+            {
+                partners?.map(partner => {
+                    return (
+                        <a key={partner?.id} href="#">
+                            <img src={partner?.image} alt="" />
+                        </a>
+                    )
+                })
+            }
+        </Slider>
     );
 };
 
