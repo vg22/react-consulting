@@ -62,8 +62,8 @@ const menus = [
         submenu: [
             {
                 id: 13,
-                link: '/',
-                linkText: 'General Posts',
+                link: '/portfolio',
+                linkText: 'Portfolio',
             },
             {
                 id: 14,
