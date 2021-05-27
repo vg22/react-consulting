@@ -1,4 +1,3 @@
-import React from 'react';
 import BannerTwo from '../components/Banners/BannerTwo/BannerTwo';
 import ServiceOne from '../components/Services/ServiceOne/ServiceOne';
 import SkillOne from '../components/Skills/SkillOne/SkillOne';

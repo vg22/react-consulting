@@ -44,8 +44,8 @@ const menus = [
         submenu: [
             {
                 id: 11,
-                link: '/',
-                linkText: 'About'
+                link: '/service',
+                linkText: 'Service Page'
             },
             {
                 id: 12,

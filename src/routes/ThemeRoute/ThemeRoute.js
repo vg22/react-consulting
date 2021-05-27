@@ -15,9 +15,9 @@ const ThemeRoute = ({ children, theme, ...rest }) => {
             }
             <Route
                 {...rest}
-                render={() => (
-                    children
-                )}
+            // render={() => (
+            //     children
+            // )}
             />
 
             {

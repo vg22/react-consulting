@@ -8,6 +8,7 @@ import './assets/css/app.css';
 import './assets/css/preset.css';
 import './assets/css/responsive.css';
 import 'font-awesome/css/font-awesome.min.css';
+import "slick-carousel/slick/slick.css";
 
 ReactDOM.render(
   <App />,

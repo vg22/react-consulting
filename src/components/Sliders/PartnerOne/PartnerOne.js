@@ -91,9 +91,9 @@ const PartnerOne = () => {
             {
                 partners?.map(partner => {
                     return (
-                        <a key={partner?.id} href="#">
+                        <Link key={partner?.id} to={partner?.link}>
                             <img src={partner?.image} alt="" />
-                        </a>
+                        </Link>
                     )
                 })
             }

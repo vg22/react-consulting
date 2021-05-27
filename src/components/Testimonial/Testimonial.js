@@ -1,16 +1,38 @@
 import authorImageOne from '../../assets/images/home3/author.png';
 import authorImageTwo from '../../assets/images/home3/author-2.png';
-import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
 import { Component } from 'react';
 
 const testimonials = [
     {
         id: 1,
-        authorImage: authorImageOne,
         review: "“ Online proofing smart review allows pages within multi page documents to be treated as .Aproove was built to be content - based rather than proof - based.”",
-        star: 5
-
+        stars: 5,
+        authorName: 'Kane D William',
+        designation: 'CEO, Print Co.',
+        authorImage: authorImageOne
+    },
+    {
+        id: 2,
+        review: "“ Online proofing smart review allows pages within multi page documents to be treated as .Aproove was built to be content - based rather than proof - based.”",
+        stars: 5,
+        authorName: 'Rosalina D William',
+        designation: 'CEO, Print Co.',
+        authorImage: authorImageTwo
+    }, {
+        id: 3,
+        review: "“ Online proofing smart review allows pages within multi page documents to be treated as .Aproove was built to be content - based rather than proof - based.”",
+        stars: 5,
+        authorName: 'Thomas D William',
+        designation: 'CEO, Print Co.',
+        authorImage: authorImageOne
+    }, {
+        id: 4,
+        review: "“ Online proofing smart review allows pages within multi page documents to be treated as .Aproove was built to be content - based rather than proof - based.”",
+        stars: 5,
+        authorName: 'Kane D William',
+        designation: 'CEO, Print Co.',
+        authorImage: authorImageTwo
     }
 ];
 
@@ -75,121 +97,31 @@ class Testimonial extends Component {
                                 ref={slider => (this.slider1 = slider)}
                                 {...sliderSettings}
                             >
-                                <div className="testimonial-item">
-                                    <div className="testi-author">
-                                        <div className="test-shape-1"></div>
-                                        <img src={authorImageOne} alt="" />
-                                        <div className="test-shape-2"></div>
-                                    </div>
-                                    <div className="testi-quote">
-                                        <div className="rating">
-                                            <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
-                                        </div>
-                                        <p>
-                                            “ Online proofing smart review allows pages within multi page documents to be treated as . Aproove was built to be content-based rather than proof-based. ”
-                                    </p>
-                                    </div>
-                                </div>
-                                <div className="testimonial-item">
-                                    <div className="testi-author">
-                                        <div className="test-shape-1"></div>
-                                        <img src={authorImageTwo} alt="" />
-                                        <div className="test-shape-2"></div>
-                                    </div>
-                                    <div className="testi-quote">
-                                        <div className="rating">
-                                            <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
-                                        </div>
-                                        <p>
-                                            “ Online proofing smart review allows pages within multi page documents to be treated as . Aproove was built to be content-based rather than proof-based. ”
-                                    </p>
-                                    </div>
-                                </div>
-                                <div className="testimonial-item">
-                                    <div className="testi-author">
-                                        <div className="test-shape-1"></div>
-                                        <img src={authorImageOne} alt="" />
-                                        <div className="test-shape-2"></div>
-                                    </div>
-                                    <div className="testi-quote">
-                                        <div className="rating">
-                                            <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
-                                        </div>
-                                        <p>
-                                            “ Online proofing smart review allows pages within multi page documents to be treated as . Aproove was built to be content-based rather than proof-based. ”
-                                    </p>
-                                    </div>
-                                </div>
-                                <div className="testimonial-item">
-                                    <div className="testi-author">
-                                        <div className="test-shape-1"></div>
-                                        <img src={authorImageTwo} alt="" />
-                                        <div className="test-shape-2"></div>
-                                    </div>
-                                    <div className="testi-quote">
-                                        <div className="rating">
-                                            <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
-                                        </div>
-                                        <p>
-                                            “ Online proofing smart review allows pages within multi page documents to be treated as . Aproove was built to be content-based rather than proof-based. ”
-                                    </p>
-                                    </div>
-                                </div>
-                                <div className="testimonial-item">
-                                    <div className="testi-author">
-                                        <div className="test-shape-1"></div>
-                                        <img src={authorImageOne} alt="" />
-                                        <div className="test-shape-2"></div>
-                                    </div>
-                                    <div className="testi-quote">
-                                        <div className="rating">
-                                            <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
-                                        </div>
-                                        <p>
-                                            “ Online proofing smart review allows pages within multi page documents to be treated as . Aproove was built to be content-based rather than proof-based. ”
-                                    </p>
-                                    </div>
-                                </div>
-                                <div className="testimonial-item">
-                                    <div className="testi-author">
-                                        <div className="test-shape-1"></div>
-                                        <img src={authorImageTwo} alt="" />
-                                        <div className="test-shape-2"></div>
-                                    </div>
-                                    <div className="testi-quote">
-                                        <div className="rating">
-                                            <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
-                                        </div>
-                                        <p>
-                                            “ Online proofing smart review allows pages within multi page documents to be treated as . Aproove was built to be content-based rather than proof-based. ”
-                                    </p>
-                                    </div>
-                                </div>
+                                {
+                                    testimonials?.map(testimonial => {
+                                        return (
+                                            <div key={testimonial?.id} className="testimonial-item">
+                                                <div className="testi-author">
+                                                    <div className="test-shape-1"></div>
+                                                    <img src={testimonial.authorImage} alt="" />
+                                                    <div className="test-shape-2"></div>
+                                                </div>
+                                                <div className="testi-quote">
+                                                    <div className="rating">
+                                                        {Array.from(Array(testimonial.stars), (e, i) => {
+                                                            return <i key={i} className="fa fa-star"></i>
+                                                        })}
+                                                    </div>
+                                                    <p>
+                                                        “ Online proofing smart review allows pages within multi page documents to be treated as . Aproove was built to be content-based rather than proof-based. ”
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        )
+                                    })
+                                }
                             </Slider>
+
                             <Slider
                                 className="slider-nav"
                                 asNavFor={this.state.nav1}
@@ -199,43 +131,20 @@ class Testimonial extends Component {
                                 focusOnSelect={true}
                                 {...navSettings}
                             >
-                                <div role="presentation">
-                                    <div className="author-meta">
-                                        <h5>Rosalina D. William</h5>
-                                        <p className="designation">Founder, Kilixer Co.</p>
-                                    </div>
-                                </div>
-                                <div role="presentation">
-                                    <div className="author-meta">
-                                        <h5>Kane D. William</h5>
-                                        <p className="designation">Ceo, Print Co.</p>
-                                    </div>
-                                </div>
-                                <div role="presentation">
-                                    <div className="author-meta">
-                                        <h5>Thomas D. William</h5>
-                                        <p className="designation">Founder, Print Co.</p>
-                                    </div>
-                                </div>
-                                <div role="presentation">
-                                    <div className="author-meta">
-                                        <h5>Rosalina D. William</h5>
-                                        <p className="designation">MD, Kilixer Co.</p>
-                                    </div>
-                                </div>
-                                <div role="presentation">
-                                    <div className="author-meta">
-                                        <h5>Karolin William</h5>
-                                        <p className="designation">Founder, Kilixer Co.</p>
-                                    </div>
-                                </div>
-                                <div role="presentation">
-                                    <div className="author-meta">
-                                        <h5>Thomas D. William</h5>
-                                        <p className="designation">Manager, Kilixer Co.</p>
-                                    </div>
-                                </div>
+                                {
+                                    testimonials?.map(testimonial => {
+                                        return (
+                                            <div key={testimonial?.id} role="presentation">
+                                                <div className="author-meta">
+                                                    <h5>{testimonial.authorName}</h5>
+                                                    <p className="designation">{testimonial.designation}</p>
+                                                </div>
+                                            </div>
+                                        )
+                                    })
+                                }
                             </Slider>
+
                         </div>
                     </div>
                 </div>
