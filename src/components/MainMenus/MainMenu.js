@@ -49,8 +49,8 @@ const menus = [
             },
             {
                 id: 12,
-                link: '/',
-                linkText: 'Archive'
+                link: '/single-service',
+                linkText: 'Service Details'
             },
         ]
     },
