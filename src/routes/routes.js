@@ -8,6 +8,7 @@ const Portfolio = lazy(() => import('../pages/Portfolio.page'));
 const SinglePortfolio = lazy(() => import('../pages/SinglePortfolio.page'));
 const News = lazy(() => import('../pages/News.page'));
 const SingleNews = lazy(() => import('../pages/SingleNews.page'));
+const Contact = lazy(() => import('../pages/Contact.page'));
 const NotFound = lazy(() => import('../pages/Page404.page'));
 
 const routes = [
@@ -72,6 +73,14 @@ const routes = [
         path: '/single-news',
         exact: true,
         component: SingleNews,
+        authentication: false,
+        theme: "theme-1"
+    },
+    {
+        name: 'Contact',
+        path: '/contact',
+        exact: true,
+        component: Contact,
         authentication: false,
         theme: "theme-1"
     },
