@@ -12,3 +12,5 @@ Live site link (will be updated later)
 #### Visibility sensor
 #### React Modal Video
 #### Slick Slider
+#### React Share
+#### React hook form
