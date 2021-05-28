@@ -12,7 +12,7 @@ const NewsSidebar = () => {
                     <h3 className="widget-title"><span>Search Objects</span></h3>
                     <form className="search-form" action="#" method="post">
                         <input type="search" name="s" placeholder="Search your keyword..." />
-                        <button type="submit"><i className="far fa-search"></i></button>
+                        <button type="submit"><i className="fa fa-search"></i></button>
                     </form>
                 </aside>
 

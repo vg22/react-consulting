@@ -85,8 +85,8 @@ const menus = [
             },
             {
                 id: 16,
-                link: '/',
-                linkText: 'Entertainment'
+                link: '/single-news',
+                linkText: 'News Details'
             },
         ]
     },
