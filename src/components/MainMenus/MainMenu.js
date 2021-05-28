@@ -67,8 +67,8 @@ const menus = [
             },
             {
                 id: 14,
-                link: '/',
-                linkText: 'Video Posts',
+                link: '/single-portfolio',
+                linkText: 'Single Portfolio',
             },
         ]
     },
@@ -80,8 +80,8 @@ const menus = [
         submenu: [
             {
                 id: 15,
-                link: '/',
-                linkText: 'Business'
+                link: '/news',
+                linkText: 'News'
             },
             {
                 id: 16,

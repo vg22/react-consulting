@@ -25,7 +25,7 @@ const teams = [
         image: teamThree,
         link: '/'
     }
-]
+];
 
 const Team = () => {
     return (

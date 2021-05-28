@@ -325,6 +325,7 @@
     border-radius: 0;
     letter-spacing: 0;
     background: transparent;
+    cursor: pointer;
 }
 .banner-content ul li a.popup-video i{
     width: 60px;
@@ -2958,6 +2959,30 @@ footer.f3-color .call-to-action .cta-item.right h4 {
     position: relative;
     padding: 0 0 120px;
 }
+
+.paginationBtns.quomodo-pagination {
+
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.paginationBtns.quomodo-pagination a {
+    padding: 10px;
+    margin: 8px;
+    border-radius:5px;
+    border: 1px solid rgb(255, 74, 23);
+    color: rgb(255, 74, 23);
+    cursor: pointer;
+}
+.paginationBtns.quomodo-pagination a:hover{
+    color: #fff;
+    background-color: rgb(255, 74, 23);
+}
+.paginationBtns.quomodo-pagination .paginationActive a{
+    color: #fff;
+    background-color: rgb(255, 74, 23);
+}
+
 .pagination-section p{
     font-size: 18px;
     line-height: 30px;
@@ -3181,7 +3206,7 @@ footer.f3-color .call-to-action .cta-item.right h4 {
     padding-bottom: 32px;
     border-bottom: 2px solid #ebf1ff;
 }
-.news-footer a{
+.news-footer span{
     display: inline-block;
     font-size: 14px;
     color: #14212b;
@@ -3189,14 +3214,15 @@ footer.f3-color .call-to-action .cta-item.right h4 {
     letter-spacing: -.42px;
     margin: 0 14px;
 }
-.news-footer a i{
+.news-footer span i{
     padding-right: 5px;
 }
-.news-footer a:hover{
+.news-footer span:hover{
     color: #ff4a17;
 }
 .news-thumb .popup-video{
     position: absolute;
+    cursor: pointer;
     left: 0;
     right: 0;
     top: 0;

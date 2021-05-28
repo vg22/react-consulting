@@ -17,6 +17,7 @@ const Home = () => {
 
             {/* Banner Section */}
             <BannerOne />
+
             {/* About Section  */}
             <AboutOne />
 

@@ -5,6 +5,8 @@ const About = lazy(() => import('../pages/About.page'));
 const Service = lazy(() => import('../pages/Service.page'));
 const SingleService = lazy(() => import('../pages/SingleService.page'));
 const Portfolio = lazy(() => import('../pages/Portfolio.page'));
+const SinglePortfolio = lazy(() => import('../pages/SinglePortfolio.page'));
+const News = lazy(() => import('../pages/News.page'));
 const NotFound = lazy(() => import('../pages/Page404.page'));
 
 const routes = [
@@ -45,6 +47,22 @@ const routes = [
         path: '/portfolio',
         exact: true,
         component: Portfolio,
+        authentication: false,
+        theme: "theme-1"
+    },
+    {
+        name: 'Single Portfolio',
+        path: '/single-portfolio',
+        exact: true,
+        component: SinglePortfolio,
+        authentication: false,
+        theme: "theme-1"
+    },
+    {
+        name: 'News',
+        path: '/news',
+        exact: true,
+        component: News,
         authentication: false,
         theme: "theme-1"
     },
